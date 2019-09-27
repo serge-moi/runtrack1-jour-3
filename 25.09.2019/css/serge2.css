@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mirza&display=swap');
+
+header{
+    padding: 1% 0 2% 0;
+    background-position-y: -140px;
+    background-image: url(../images/fnatic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 7px 13px 10px #010101ab;
+    border-radius: 7%;
+}
+header h1{
+    position: absolute;
+    font-size: 54px;
+    margin-left: 43%;
+    font-family: 'Permanent Marker', cursive;
+    color: #FDA307;
+    text-shadow: black 2px 0 1px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Yellowtail', cursive;
+    font-size: 28px;
+}
+.container #ordre{
+    order: 3;
+}
+.container #image{
+    order: 1;
+}
+.container article{
+    order: 2;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+}
+.container article p{
+    font-size: 97%;
+    text-shadow: black 3px 0.5px 5px;
+    color: white;
+}
+img{
+    width: 20%;
+}
+.lien{
+    text-decoration: none;
+    color: #a20078;
+    text-shadow: #710a0a 1px 0 19px;
+}
+#ordre{
+    border: 4mm ridge rgba(0, 0, 0, 1);
+    box-shadow: -4px 3px 50px black;
+}
+#image{
+    border: 1rem #fda307 solid;
+    border-radius: 66%;
+    box-shadow: -4px 3px 50px darkorange;
+}
+#image:hover{
+    border: rgb(14, 167, 54) 1rem dashed;
+}
+#ordre:hover{
+    border: 4mm ridge #225FA1;
+}
+span{
+    color:black;
+    padding-right: 15px;
+}
+main section{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 50px;
+}
+#banniere1{
+    background-image: url(../images/fnaticteam.jpg);
+    border: 1px solid black;
+    background-size: cover;
+    flex-basis: 40%;
+    background-position-x: -40px;
+    box-shadow: -1px -2px 15px #09585a;
+    border-radius: 10%;
+    background-position: center;
+}
+#banniere2{
+    background-image: url(../images/fnaticteam2.png);
+    border: 1px solid black;
+    background-size: cover;
+    flex-basis: 40%;
+    box-shadow: -1px -2px 15px #ff003b;
+    border-radius: 10%;
+    background-position: center;
+}
+#col{
+    display: flex;
+    flex-direction: column;
+}
+#col h2{
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 32px;
+}
+#col ul, ol{
+    font-family: 'Mirza', cursive;
+    font-size: 20px;
+}
+.art1 h2{
+    color:#09585a;
+    text-shadow: #191919 6px 12px 4px;
+}
+.art2 h2{
+    color: #FDA307;
+    text-shadow: #191919 6px 12px 4px;
+}
+.art3 #titre2{
+    color: #B5061C;
+    text-shadow: #191919 6px 12px 4px;
+}

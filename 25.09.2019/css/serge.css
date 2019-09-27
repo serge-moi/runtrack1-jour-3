@@ -1,0 +1,103 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    text-align:center;
+}
+h1{
+    font-family: 'Mansalva', cursive;
+    color:brown;
+    text-shadow: #FC0 1px 0 10px;
+    font-size:26px;
+}
+.lien{
+    display:block;
+    line-height:3px;
+    text-decoration:none;
+    color:#e10556;
+    margin-top:25px;
+}
+a:hover{
+    color:pink;
+}
+.art1 h2, .art2 h2, .art3 h2{
+    text-align:center;
+    font-family: 'Gochi Hand', cursive;
+    margin-top: 50px;
+    color:green;
+}
+#image {
+    width:113px;
+    border-radius:50%;
+    box-shadow: 5px 5px 8px #010101ab;
+    border: 1px solid sandybrown;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:40px;
+    font-size: 28px;
+    font-family: 'Just Another Hand', cursive;
+}
+p{
+    display:flex;
+    line-height:6px;
+}
+main{
+    margin-top:80px;
+}
+img {
+    width:140px;
+    margin-right: 18px;
+}
+ul{
+    margin:auto;
+    width:530px;
+    list-style:none;
+}
+ul li::before{
+    content: "\2022";
+    color:red;
+    margin-right: 10px;
+}
+#container2{
+    display:flex;
+    justify-content:space-evenly;
+}
+#container2 h2{
+    display:flex;
+    align-self:center;
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+.art3 #titre2{
+        display: flex;
+        justify-content: center;
+        color:red;
+}
+.art3 a{
+    text-decoration:none;
+    color:green;
+    text-shadow: black 1px 0 10px;
+}
+.art1{
+    background-image: url(../images/myhero.jpg);
+    background-size: 29%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 17px;
+}
+.art1 h2{
+    text-shadow: white 3px 2px 1px;
+}
+.art1 ul{
+    color: #fd9292;
+    text-shadow: black 2px 0 1px;
+    
+}
+strong{
+    color: #ffe000;
+    border: 1px solid black;
+    box-shadow: 1px 1px #5A3C39, -1em 0 2.4em darkviolet;
+    text-shadow: black 2px 0 1px;
+}
